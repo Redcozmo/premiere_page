@@ -1,0 +1,129 @@
+/* Couleurs*/
+body{color: black; background-color: #EEE;}
+
+
+
+
+/* Formatage du texte */
+/* La taille */
+/* La taille absolue */
+h1
+{
+    font-size: 30px; /* Titres de 40 pixels */
+}
+/* La taille relative */
+h2
+{
+    font-size: large;
+}
+p
+{
+    font-size: 1em;
+}
+span{font-style: italic;}
+
+/* Les polices c'est chiiiaaaaaaannnnnnt */
+body
+{
+  font-family: "Comic Sans MS";
+}
+p
+{
+  font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+#Arial
+{
+  font-family: Arial;
+}
+#ArialBlack{font-family: "Arial Black";}
+#ComicSansMS{font-family: "Comic Sans MS";}
+#CourierNew{font-family: "Courier New";}
+#Georgia{font-family: Georgia;}
+#Impact{font-family: Impact;}
+#TimesNewRoman{font-family: "Times New Roman";}
+#TrebuchetMS{font-family: "Trebuchet MS";}
+#Verdana{  font-family: Verdana;}
+
+/* Une police perso */
+@font-face
+{
+    font-family: 'MaPolicePerso';
+    src: url('fichiers/open-sans/OpenSans-Bold.ttf');
+}
+#header /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'MaPolicePerso', "Comic Sans MS","Courier New", Arial, serif;
+}
+
+/* Dimensions des balises */
+#container
+{
+    width: 900px;
+    background-color: #DFE8EB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* flexbox*/
+h1 {
+  margin: 0;
+}
+
+#content
+{
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header
+{
+    background-color: #92999C;
+    color: yellow;
+    text-align: center;
+    padding: 10px;
+}
+
+#nav
+{
+  width: 200px;
+  background-color: #86BED1;
+  color: black;
+  text-align: left;
+  float: left;
+  padding: 10px;
+}
+#nav ul
+{
+  list-style-type: none;
+}
+#main
+{
+  width: 600px;
+  text-align: justify;
+  float: right;
+  padding: 10px;
+}
+
+#footer
+{
+  background-color: #92999C;
+  color: yellow;
+  text-align: center;
+  clear: both;
+  padding: 10px;
+}
+
+/*nav
+{
+  float: left
+  width: 180px
+  margin: auto;
+}
+section, article
+{
+  float: right
+  width: 400px
+}
+*/
