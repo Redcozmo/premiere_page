@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <!-- Titre de la page -->
+        <title>Ma premiere page !</title>
+    </head>
+
+    <body>
+        <!-- Corps de la page -->
+        <div id="container">
+            <div id="header">
+                <p>Yeah ma premiere page !! ;-)</p>
+                <p>C'est aussi ma page de travail. Elle jouera le rôle du travail de rendu THP. Reproduire le BetterMotherFuckingWebSite quel intérêt ?</p>
+                <p>Oui je sais elle est moche ! Mais je suis pas là pour faire de l'art ou du marketing mais du code !</p>
+            </div>
+
+            <div id="content">
+                <div id="nav">
+              <!-- Bloc de navigation généralement sur une bande à gauche -->
+                    <h1 class="sommaire">Sommaire</h1>
+                    <a href="#Titres">Titres</a><br />
+                    <a href="#Balises">Balises</a><br />
+                    <a href="#Mise en valeur">Mise en valeur</a><br />
+                    <a href="#Listes à puces">Listes à puces</a><br />
+                    <a href="#Listes numérotées">Listes numérotées</a><br />
+                    <a href="#Liens">Liens</a><br />
+                    <a href="#images">Les images</a><br />
+                    <a href="#polices">Les polices</a><br />
+                </div>
+                <div id=main>
+                    <h1 id="Titres">Les titres : ceci est un titre de niveau 1</h1>
+                          <h2>Ceci est un titre de niveau 2</h2>
+                          <h2>Ceci est un autre titre de  niveau 2</h2>
+
+                    <h1 id="Balises">Balises</h1>
+                          <p>
+                            La double balise "p" et "/p" délimite un paragraphe<br />
+                            Retout à la ligne c'est la balise orpheline "br"
+                          </p>
+
+                    <h1 id="Mise en valeur">Mettre en valeur du texte</h1>
+                          <p>la balise <em>"em"</em> (en fait c'est de l'italique)
+                          et aussi la balise <strong>"strong"</strong> (c'est en gras)
+                          ou encore la balise <mark>"mark"</mark> qui est du surlignage</p>
+                          <p>En fait ce sera la partie CSS qui décidera comment va s'afficher mon texte entre les différentes balises.<br />
+                          Je pourrai même décider d'afficher le texte qui est entre balises strong en italique !! C'est DINGUE !!</p>
+
+                    <h1 id="Listes à puces">Listes à puces</h1>
+                          <ul>
+                                <li>Puce 1</li>
+                                <li>Puce 2</li>
+                                <li>Puce 3</li>
+                          </ul>
+
+                    <h1 id="Listes numérotées">Listes numérotées</h1>
+                          <ol>
+                                <li>Numéro 1</li>
+                                <li>Numéro 2</li>
+                                <li>Numéro 3</li>
+                          </ol>
+
+                    <h1 id="Liens">Les liens</h1>
+
+                          <h2>Les liens vers des sites</h2>
+
+                          <p>Un super site à visiter ! Avant 2020...
+                            <a href="https://36000communes.org/">36000communes</a><br />
+                            Macron t'es foutu ! ;o)</p>
+
+                          <h2>Les liens vers une page perso en local</h2>
+
+                            <p>Voici des liens à aller voir absolument ;-)</p>
+                            <a href="page2.html" title="L'open source ça déchire !" target="_blank">cliques là !</a><br />
+
+                          <h2>Les liens pour envoyer un courriel</h2>
+
+                            <p><a href="mailto:redcozmo@hotmail.com">Envoyez-moi un e-mail !</a></p>
+
+                          <h2>Les liens pour télécharger un fichier</h2>
+
+                            <p><a href="fichiers/Archive_vide.zip">Télécharger le fichier</a></p>
+
+                    <h1 id="images">Les images</h1>
+                    <!-- Insérer une image - dans un paragraphe -->
+                            <p>
+                                Insertion d'une image<br Voici une liste de polices qui fonctionnent bien sur la plupart des navigateurs : />
+                                <a href="images/abeille.jpg"><img src="images/abeille_mini.jpg" alt="Photo d'une abeille" title="Abeille/Bee"/></a>
+                            </p>
+                            <!-- Insérer une image - dans une figure qui permet de mettre une légende par example -->
+                            <figure>
+                              Insertion d'une image avec légende, donc plutôt pour des illustrations...<br />
+                              <a href="images/abeille.jpg"><img src="images/abeille_mini.jpg" alt="Photo d'une abeille" title="Abeille/Bee"/></a>
+                              <figcaption>Légende</figcaption>
+                            </figure>
+
+                    <h1 id="polices">Les polices</h1>
+
+                        <p>Il existe différents types de formats de fichiers de polices qui existent et qu'il faut connaître :</p>
+                        <ul>
+                              <li>.ttf: TrueType Font. Fonctionne sur IE9 et tous les autres navigateurs</li>
+                              <li>.eot: Embedded OpenType. Fonctionne sur Internet Explorer uniquement, toutes versions. Ce format est propriétaire, produit par Microsoft</li>
+                              <li>.otf: OpenType Font. Ne fonctionne pas sur Internet Explorer</li>
+                              <li>.svg: SVG Font. Le seul format reconnu sur les iPhones et iPads pour le moment</li>
+                              <li>.woff: Web Open Font Format. Nouveau format conçu pour le Web, qui fonctionne sur IE9 et tous les autres navigateur</li>
+                        </ul>
+
+                        <p>Voici une liste de polices qui fonctionnent bien sur la plupart des navigateurs :</p>
+
+                            <p id="Arial">
+                              Arial<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="ArialBlack">
+                              Arial Black<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="ComicSansMS">
+                              Comic Sans MS<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="CourierNew">
+                              Courier New<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="Georgia">
+                              Georgia<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="Impact">
+                              Impact<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="TimesNewRoman">
+                              Times New Roman<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="TrebuchetMS">
+                              Trebuchet MS<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+                            <p id="Verdana">
+                              Verdana<br />
+                              Dans ce monde il y a deux ordres d'existence,<br />
+                              le périssable et l'impérissable.<br />
+                              Le périssable est le visible.<br />
+                              L'impérissable est la substance invisible du visible.<br />
+                              <span>Bhagavad-Gita (vers 400-300 av. J.-C.)</span>
+                            </p>
+            </div>
+            <div id="footer">
+              <p>Mon premier site internet avec THP - Redcozmo (R)</p>
+            </div>
+        </div>
+
+    </body>
+</html>
