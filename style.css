@@ -1,7 +1,14 @@
 /* Couleurs*/
 body{color: black; background-color: #EEE;}
 
-
+/* Image en fond*/
+#header
+{
+    background-image: url("images/firefox-icon.png");
+/*    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 
 
 /* Formatage du texte */
